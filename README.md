@@ -58,27 +58,27 @@ This project is a **Project Management API** built using Node.js, Express, and F
 
 ### Projects
 
-- **GET /api/projects**
+- **GET /api/projects/projects**
 
   - Fetch all projects.
   - Protected route (requires authentication).
 
-- **GET /api/projects/:id**
+- **GET /api/projects/projects/:id**
 
   - Fetch a specific project by ID.
   - Protected route (requires authentication).
 
-- **POST /api/projects**
+- **POST /api/projects/projects**
 
   - Create a new project.
   - Protected route (requires authentication).
 
-- **PUT /api/projects/:id**
+- **PUT /api/projects/projects/:id**
 
   - Update details of a specific project by ID.
   - Protected route (requires authentication).
 
-- **POST /api/projects/:id/tasks**
+- **POST /api/projects/projects/:id/tasks**
   - Add a new task to a specific project by ID.
   - Protected route (requires authentication).
 
@@ -98,8 +98,8 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 For any questions or issues, please contact:
 
-- **Email**: [your-email@example.com](mailto:iamsaurabhverma7@gmail.com)
-- **GitHub**: [your-github-profile](https://github.com/iamsaurabh7)
+- **Email**: [iamsaurabhverma7@gmail.com](mailto:iamsaurabhverma7@gmail.com)
+- **GitHub**: [https://github.com/iamsaurabh7](https://github.com/iamsaurabh7)
 
 ---
 
