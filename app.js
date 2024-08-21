@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://project-management-app-demo.netlify.app/",
+    origin: "https://project-management-app-demo.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
