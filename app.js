@@ -5,7 +5,8 @@ const projectRoutes = require("./routes/projectRoutes");
 // const authRoutes = require('./routes/authRoutes');
 
 const app = express();
-app.use(cors())
+app.use(cors());
+app.options("*", cors()); // ye abi add kia
 app.use(bodyParser.json());
 
 // Routes
