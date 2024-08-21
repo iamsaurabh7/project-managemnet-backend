@@ -5,7 +5,7 @@ const projectRoutes = require("./routes/projectRoutes");
 // const authRoutes = require('./routes/authRoutes');
 
 const app = express();
-
+app.use(cors())
 app.use(
   cors({
     origin: "https://project-management-app-demo.netlify.app",
