@@ -6,13 +6,6 @@ const projectRoutes = require("./routes/projectRoutes");
 
 const app = express();
 app.use(cors())
-app.use(
-  cors({
-    origin: "https://project-management-app-demo.netlify.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
 app.use(bodyParser.json());
 
 // Routes
